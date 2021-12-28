@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="corp-css.css"
+    
+</head>
+<body>
+    <div class="main-container"> 
+        <div class="data">
+          <label>Name:</label> <input type="text" name="attr_name">
+          <label>Profession:</label><input type="text" name="attr_prof">
+          <label>Corporation:</label><input type="text" name="attr_prof">
+          <label>Division:</label><input type="text" name="attr_div">
+        </div>
+
+        <div class="stats">
+            
+            <span>Strength</span> <input type="text" name="attr_str" value ="5" class="in-stat">
+            <span>Endurance</span><input type="text" name="attr_end" value ="5" class="in-stat">
+            <span>Agility</span><input type="text" name="attr_agi" value ="5" class="in-stat">
+            <span>Reflexes</span><input type="text" name="attr_ref" value ="5" class="in-stat">
+            <span>Perception</span><input type="text" name="attr_per" value ="5" class="in-stat">
+            <span>Intelligence</span><input type="text" name="attr_int" value ="5" class="in-stat">
+            <span>Presence</span><input type="text" name="attr_pre" value ="5" class="in-stat">
+            <h3>Telepathics</h3>
+            <span>Assault</span> <input type="text" name="attr_assault" value ="0" class="in-skill">
+            <label>D6 per level</label>
+            <span>Biokinesis</span> <input type="text" name="attr_biokinesis" value ="0" class="in-skill">
+            <label>x2 in HP</label>
+            <span>Jump</span><input type="text" name="attr_jump" value ="0" class="in-skill">
+            <label>Jump² in m</label>
+            <span>Prescience</span><input type="text" name="attr_precience" value ="0" class="in-skill">
+            <label>Att / Init / Danger</label>
+            <span>Psi Blade</span><input type="text" name="attr_psi_blade" value ="0" class="in-skill">
+            <label>D8 + Psi Blade + Str</label>
+            <span>Shield</span><input type="text" name="attr_tshield" value ="0" class="in-skill">
+            <label>HP = Shield²</label>
+            <span>Telekinesis</span><input type="text" name="attr_telekinesis" value ="0" class="in-skill">
+            <label>KG = TK² x 10</label>
+        </div>
+        
+        <div class="skills"> 
+            <h3>Skills</h3>
+            <span>Arts & culture</span><input type="text" name="attr_arts" value ="0" class="in-skill">
+            <span>Assess Tech</span><input type="text" name="attr_assess" value ="0" class="in-skill">
+            <span>Athletics</span><input type="text" name="attr_athletics" value ="0" class="in-skill">
+            <span>Attitude</span><input type="text" name="attr_attitude" value ="0" class="in-skill">
+            <span>Business</span><input type="text" name="attr_business" value ="0" class="in-skill">
+            <span>Close Combat</span><input type="text" name="attr_close" value ="0" class="in-skill">
+            <span>Computer & A.I</span><input type="text" name="attr_computer" value ="0" class="in-skill">
+            <span>Corp. Knowledge</span><input type="text" name="attr_corp_knw" value ="0" class="in-skill">
+            <span>Crime</span><input type="text" name="attr_crime" value ="0" class="in-skill">
+            <span>Cybernetics & rob.</span><input type="text" name="attr_cybernetics" value ="0" class="in-skill">
+            <span>Drive</span><input type="text" name="attr_drive" value ="0" class="in-skill">
+            <span>Heavy Firearms</span><input type="text" name="attr_heavy" value ="0" class="in-skill">
+            <span>Light Firearms</span><input type="text" name="attr_light" value ="0" class="in-skill">
+            <span>Looking Good</span><input type="text" name="attr_looking" value ="0" class="in-skill">
+            <span>Lying & Acting</span><input type="text" name="attr_lying" value ="0" class="in-skill">
+            <span>Mechtronics</span><input type="text" name="attr_mechttonics" value ="0" class="in-skill">
+            <span>Medicine</span><input type="text" name="attr_medicine" value ="0" class="in-skill">
+            <span>Observation</span><input type="text" name="attr_observation" value ="0" class="in-skill">
+            <span>Pilot</span><input type="text" name="attr_pilot" value ="0" class="in-skill">
+            <span>Psychology</span><input type="text" name="attr_psychology" value ="0" class="in-skill">
+            <span>Science</span><input type="text" name="attr_science" value ="0" class="in-skill">
+            <span>Stealth</span><input type="text" name="attr_stealth" value ="0" class="in-skill">
+            <span>Street Culture</span><input type="text" name="attr_street" value ="0" class="in-skill">
+            <span>Support Weapons</span><input type="text" name="attr_support" value ="0" class="in-skill">
+            <span>Tactical Firearms</span><input type="text" name="attr_tactical" value ="0" class="in-skill">
+        </div>
+        
+        <div class="misc">
+            misc 
+        </div>
+        
+        <div class="weapont">
+            <div class="weapon_header">
+                <span>Weapon / Attack</span>
+                <span>AT</span>
+                <span>Damage</span>
+                <span>Def</span>
+                <span>Rate</span>
+                <span>EMPS</span>
+                <span>Special</span>
+            </div>
+             <fieldset class="repeating_weapon">
+                 <input type="text" name="attr_weapon_name" style="width: 150px;">
+                 <input type="text" name="attr_AT" style="width: 30px;">
+                 <input type="text" name="attr_dmg" style="width: 75px;">
+                 <input type="text" name="attr_def" style="width: 30px;">
+                 <input type="text" name="attr_rate" style="width: 30px;">
+                 <input type="text" name="attr_emps" style="width: 30px;">
+                 <input type="text" name="attr_special"style="width: 75px;">
+             </fieldset>
+        </div>
+        
+        <div class="cyber">
+             <h3>hardware / cybernetics</h3>
+             <span>A.I</span><input type="text">
+             <span>Credit Reg</span><input type="text">
+             <span>slip</span><input type="text">
+        </div>
+        
+        <div class="tcl">
+             <h3>Licenses</h3>
+             <h3>Contacts</h3>
+             <h3>Trainigs</h3>
+             <textarea>
+
+             </textarea>
+             <textarea>
+                 
+            </textarea>
+            <textarea>
+                 
+            </textarea>
+        </div>
+        
+    </div>
+</body>
+</html>
